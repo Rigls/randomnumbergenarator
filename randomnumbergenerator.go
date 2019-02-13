@@ -6,5 +6,5 @@ import "math/rand"
 
 func main() {
 	rand.Seed(time.Now().UTC().UnixNano())
-	fmt.Println("Your random number is", rand.Intn(500))
+	fmt.Println("Your random number is", rand.Intn(5000))
 }
